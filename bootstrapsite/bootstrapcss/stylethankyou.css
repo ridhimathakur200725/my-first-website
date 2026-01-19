@@ -1,0 +1,26 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  cursor:pointer;
+}
+
+.logo {
+  width: 62%;
+  transform: translateY(-2px);
+}
+
+.footer-section a:hover {
+  color: #ffc107;
+}
+
+.thankyou-section {
+  min-height: 70vh; /* keeps it centered on screen */
+  background: #f8f9fa;
+}
+
+.thankyou-section h2 {
+  font-family: "Quicksand", sans-serif;
+}
+
+.thankyou-section p {
+  font-size: 1.1rem;
+}

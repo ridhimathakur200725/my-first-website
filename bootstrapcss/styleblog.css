@@ -1,0 +1,45 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  cursor:pointer;
+}
+
+.logo {
+  width: 62%;
+  transform: translateY(-2px);
+}
+
+.footer-section a:hover {
+  color: #ffc107;
+}
+
+.section1 {
+  background-color: rgb(10 63 135);
+  background-size: cover;
+  background-position: center;
+  padding-top: 26px;
+}
+
+
+.ourblogs .card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.ourblogs .card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.date-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #fdd835; /* yellow */
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  line-height: 1.2;
+}

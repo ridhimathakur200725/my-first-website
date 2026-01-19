@@ -1,0 +1,76 @@
+
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --navbar-bg: #f8f9fa;
+  --navbar-text: #000000;
+  --primary-color: #0a3f87;
+  --card-bg: #ffffff;
+  --card-text: #000000;
+  --section-video-bg: #0a3f87;
+}
+
+.dark-theme {
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --navbar-bg: #212121;
+  --navbar-text: #ffffff;
+  --primary-color: #0a84ff;
+  --card-bg: #1e1e1e;
+  --card-text: #ffffff;
+  --section-video-bg: #0066cc;
+}
+
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.navbar {
+  background-color: var(--navbar-bg) !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .btn-outline-secondary {
+  color: var(--navbar-text) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+#show-cards{
+background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+.custom-bg {
+  background-color: var(--section-video-bg) !important;
+  color: #fff;
+}
+
+.servicescard .card {
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  background-color: var(--card-bg);
+  color: var(--card-text);
+}
+
+.servicescard .card:hover {
+  transform: translateY(-5px);
+}
+
+.servicescard .card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.servicescard .card .card-text,
+.servicescard .card .card-title {
+  color: var(--card-text);
+}
+.servicescard .card .card-text {
+  color: var(--card-text) !important; 
+}
+

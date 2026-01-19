@@ -1,0 +1,80 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  cursor:pointer;
+}
+
+.logo {
+  width: 62%;
+  transform: translateY(-2px);
+}
+
+.section1 {
+  background-image: url('../bootstrapsiteimages/background.webp');
+  background-size: cover;
+  background-position: center;
+  padding-top: 26px;
+}
+
+.feature-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 35px 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  height: 100%;
+}
+
+.feature-icon {
+  background-color: #3fa7f4;
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+
+.section-description {
+  color: #e0e0e0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.faq-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.faq-heading .tag {
+  display: inline-block;
+  background-color: #e6f0ff;
+  color: #228be6;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-section a:hover {
+  color: #ffc107;
+}
+.custom-bg {
+  background-color: #0a3f87 !important;
+}
+
+
+.video-img {
+  min-height: 100%;
+}
+
+.video-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
